@@ -1,0 +1,126 @@
+<body ng-class="{'blurry': blurry}">
+
+    <!-- uiView: --><div class="container ng-scope" ui-view=""><div class="container-signin ng-scope">
+    <div class="flipper" ng-class="{'flipped': $ctrl.flipped}">
+        <div class="frontside">
+            <div class="logo-login">
+                <img src="/assets/img/artemis-logo-brand.png">
+            </div>
+
+            <div>
+                <!-- <div class="alert message"
+                     ng-if="$ctrl.user.wasRedirectedToLogin"
+                     data-qa="login-alert">
+                    <i class="icon-info-circle"></i>
+                    Sign in to access this link.
+                </div> -->
+                <div class="alert message disclaimer-message ng-binding" data-qa="login-alert">
+                    <i class="icon-info-circle"></i>
+                    <!-- ngIf: $ctrl.disclaimerTitle --><b ng-if="$ctrl.disclaimerTitle" class="ng-binding ng-scope">Data Export Policy :</b><!-- end ngIf: $ctrl.disclaimerTitle -->
+                    Be advised that data exported out of the Artemis platform can be modified, altered, or changed. Artemis is not responsible for any changes made to the data in those reports after it has been exported. By continuing, you are acknowledging your understanding.
+                    <a class="forgot ng-binding" href="" ng-click="$ctrl.acceptLegalDisclamier()" data-qa="disclaimer-accp-link">AGREE &amp; DISMISS </a>
+                </div>
+                <!-- ngIf: $ctrl.mfaRedirect -->
+                <div>
+                    <div class="container-input">
+                        <i class="icon-user icon-large input-icon position-left"></i>
+                        <input id="username" placeholder="Email" class="first form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" ng-model="$ctrl.user.username" ng-change="$ctrl.user.validated = false; $ctrl.user.error = ''" required="" autocorrect="off" autocapitalize="off" autocomplete="username" ng-keyup="$ctrl.checkKey($event)" autofocus="" data-qa="username">
+                    </div>
+
+                    <!-- ngIf: $ctrl.showPasswordByDefault || ($ctrl.user.validated && $ctrl.user.username) -->
+                    <!-- ngIf: ($ctrl.user.validated && $ctrl.user.twoFactorEnabled) -->
+
+                    <!-- ngIf: ($ctrl.user.validated && $ctrl.user.twoFactorEnabled) -->
+
+                    <!-- ngIf: ($ctrl.user.validated && $ctrl.user.twoFactorEnabled) -->
+
+                    <!-- login -->
+                    <button ng-click="$ctrl.signin()" type="button" class="btn btn-primary btn-large" ng-disabled="$ctrl.disabled()" data-qa="login-submit" disabled="disabled">
+                        <i class="icon-circle-o icon-spin ng-hide" ng-show="$ctrl.user.isLoggingIn || $ctrl.user.validating"></i>
+                        Sign in
+                    </button>
+
+                    <!-- ngIf: $ctrl.googleLink -->
+                    <!-- ngIf: !$ctrl.googleLink --><div ng-if="!$ctrl.googleLink" class="google-signin-container ng-scope">
+                        <a class="google-signin disabled">
+                        </a>
+                    </div><!-- end ngIf: !$ctrl.googleLink -->
+
+                    <div class="alert alert-danger top-20px ng-hide" ng-show="$ctrl.user.error" data-qa="login-error">
+                        <strong>Error</strong>
+                        <br>
+                        <p ng-bind-html="$ctrl.user.error" class="ng-binding"></p>
+                    </div>
+                    <div class="alert alert-info top-20px ng-hide" ng-show="$ctrl.user.info" data-qa="login-info">
+                        <p ng-bind-html="$ctrl.user.info" class="ng-binding"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="backside">
+            <div class="logo-login">
+                <img src="/assets/img/artemis-logo-brand.png">
+            </div>
+            <form ng-submit="$ctrl.resetPassword($ctrl.user.resetPasswordEmail)" name="resetPasswordForm" novalidate="" class="ng-pristine ng-valid-email ng-invalid ng-invalid-required">
+                <h3>Forgotten password?</h3>
+                <div class="container-input">
+                    <i class="icon-user icon-large input-icon position-left"></i>
+                    <input type="email" placeholder="Email" class="first form-control ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required" ng-model="$ctrl.user.resetPasswordEmail" required="" autocorrect="off" autocapitalize="off" data-qa="forgot-password-email">
+                </div>
+                <button type="submit" class="btn btn-primary btn-large bottom-15px" ng-disabled="$ctrl.user.isResettingPassword || !$ctrl.user.resetPasswordEmail" data-qa="forgot-password-submit" disabled="disabled">
+                    <i class="icon-circle-o-notch icon-spin ng-hide" ng-show="$ctrl.user.isResettingPassword"></i>
+                    Reset Password
+                </button>
+
+                <div class="alert alert-success ng-binding ng-hide" top-20px="" ng-show="$ctrl.user.resetPasswordRequestSent" data-qa="forgot-password-success">
+                    <strong>Email sent!</strong>
+                    <br>
+                    We've sent instructions for setting your password to "". The email should
+                    arrive shortly.
+                </div>
+            </form>
+            <div class="text-center top-45px">
+                <a class="forgot" href="" ng-click="$ctrl.handleForgotPasswordClick()">← Back to login</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    <div class="spinner-wrapper ng-hide" ng-show="hasPendingRequests()">
+        <div class="spinner">
+            <div class="blockG rotateG_01"></div>
+            <div class="blockG rotateG_02"></div>
+            <div class="blockG rotateG_03"></div>
+            <div class="blockG rotateG_04"></div>
+            <div class="blockG rotateG_05"></div>
+            <div class="blockG rotateG_06"></div>
+            <div class="blockG rotateG_07"></div>
+            <div class="blockG rotateG_08"></div>
+        </div>
+    </div>
+
+    <!-- Browser compatability notifications, from https://browser-update.org/ -->
+    <!-- Customize using $buoop object below and "body .buorg" CSS class -->
+    <script>
+        var $buoop = {
+            c: 2,        // check for chrome
+            reminder: 0, // always remind
+            text: "<div class='alert alert-warning'><i class='icon-warning'></i>Your browser <strong>isn't supported or is out-of-date!</strong>  For your security, Artemis only supports modern up-to-date browsers. <a href='https://www.google.com/chrome/browser/desktop/' target='_blank'>Get the most recent version of Chrome</a></div>"
+        };
+        function $buo_f() {
+            var e = document.createElement("script");
+            e.src = "//browser-update.org/update.min.js";
+            document.body.appendChild(e);
+        };
+        try { document.addEventListener("DOMContentLoaded", $buo_f, false) }
+        catch (e) { window.attachEvent("onload", $buo_f) }
+    </script>
+    <script src="/common/js/common.12.3.80.bundle.js?t=1731698316263"></script>
+    <script src="/runtime/js/runtime.12.3.80.bundle.js?t=1731698316263"></script>
+    <script src="/auth/js/auth.12.3.80.bundle.js?t=1731698316263"></script>
+
+
+
+<script src="//browser-update.org/update.min.js"></script></body>

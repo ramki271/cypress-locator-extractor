@@ -1,0 +1,425 @@
+{
+  "container_ng-scope": {
+    "tag": "div",
+    "id": null,
+    "class": "container ng-scope",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope"
+  },
+  "container-signin_ng-scope": {
+    "tag": "div",
+    "id": null,
+    "class": "container-signin ng-scope",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope"
+  },
+  "flipper": {
+    "tag": "div",
+    "id": null,
+    "class": "flipper",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper"
+  },
+  "frontside": {
+    "tag": "div",
+    "id": null,
+    "class": "frontside",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside"
+  },
+  "logo-login": {
+    "tag": "div",
+    "id": null,
+    "class": "logo-login",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div.logo-login"
+  },
+  "img_1": {
+    "tag": "img",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[1]/img[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > div.logo-login > img"
+  },
+  "div_2": {
+    "tag": "div",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div"
+  },
+  "login-alert": {
+    "tag": "div",
+    "id": null,
+    "class": "alert message disclaimer-message ng-binding",
+    "name": null,
+    "data-qa": "login-alert",
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div.alert.message.disclaimer-message.ng-binding"
+  },
+  "icon-info-circle": {
+    "tag": "i",
+    "id": null,
+    "class": "icon-info-circle",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/i[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div.alert.message.disclaimer-message.ng-binding > i.icon-info-circle"
+  },
+  "ng-binding_ng-scope": {
+    "tag": "b",
+    "id": null,
+    "class": "ng-binding ng-scope",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/b[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div.alert.message.disclaimer-message.ng-binding > b.ng-binding.ng-scope"
+  },
+  "disclaimer-accp-link": {
+    "tag": "a",
+    "id": null,
+    "class": "forgot ng-binding",
+    "name": null,
+    "data-qa": "disclaimer-accp-link",
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div.alert.message.disclaimer-message.ng-binding > a.forgot.ng-binding"
+  },
+  "container-input": {
+    "tag": "div",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div"
+  },
+  "google-signin-container_ng-scope": {
+    "tag": "div",
+    "id": null,
+    "class": "container-input",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > div.container-input"
+  },
+  "icon-user_icon-large_input-icon_position-left": {
+    "tag": "i",
+    "id": null,
+    "class": "icon-user icon-large input-icon position-left",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/i[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > div.container-input > i.icon-user.icon-large.input-icon.position-left"
+  },
+  "username": {
+    "tag": "input",
+    "id": "username",
+    "class": "first form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required",
+    "name": null,
+    "data-qa": "username",
+    "xpath": "//*[@id=\"username\"]",
+    "cssSelector": "input#username"
+  },
+  "login-submit": {
+    "tag": "button",
+    "id": null,
+    "class": "btn btn-primary btn-large",
+    "name": null,
+    "data-qa": "login-submit",
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > button.btn.btn-primary.btn-large"
+  },
+  "icon-circle-o_icon-spin_ng-hide": {
+    "tag": "i",
+    "id": null,
+    "class": "icon-circle-o icon-spin ng-hide",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/i[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > button.btn.btn-primary.btn-large > i.icon-circle-o.icon-spin.ng-hide"
+  },
+  "login-error": {
+    "tag": "div",
+    "id": null,
+    "class": "google-signin-container ng-scope",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > div.google-signin-container.ng-scope"
+  },
+  "google-signin_disabled": {
+    "tag": "a",
+    "id": null,
+    "class": "google-signin disabled",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/a[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > div.google-signin-container.ng-scope > a.google-signin.disabled"
+  },
+  "login-info": {
+    "tag": "div",
+    "id": null,
+    "class": "alert alert-danger top-20px ng-hide",
+    "name": null,
+    "data-qa": "login-error",
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > div.alert.alert-danger.top-20px.ng-hide"
+  },
+  "strong_1": {
+    "tag": "strong",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/strong[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required > div.alert.alert-success.ng-binding.ng-hide > strong"
+  },
+  "br_2": {
+    "tag": "br",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/br[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required > div.alert.alert-success.ng-binding.ng-hide > br"
+  },
+  "ng-binding": {
+    "tag": "p",
+    "id": null,
+    "class": "ng-binding",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]/p[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > div.alert.alert-info.top-20px.ng-hide > p.ng-binding"
+  },
+  "backside": {
+    "tag": "div",
+    "id": null,
+    "class": "alert alert-info top-20px ng-hide",
+    "name": null,
+    "data-qa": "login-info",
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[4]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.frontside > div > div > div.alert.alert-info.top-20px.ng-hide"
+  },
+  "forgot-password-success": {
+    "tag": "div",
+    "id": null,
+    "class": "backside",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside"
+  },
+  "text-center_top-45px": {
+    "tag": "div",
+    "id": null,
+    "class": "logo-login",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > div.logo-login"
+  },
+  "resetPasswordForm": {
+    "tag": "form",
+    "id": null,
+    "class": "ng-pristine ng-valid-email ng-invalid ng-invalid-required",
+    "name": "resetPasswordForm",
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required"
+  },
+  "h3_1": {
+    "tag": "h3",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]/h3[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required > h3"
+  },
+  "spinner-wrapper_ng-hide": {
+    "tag": "div",
+    "id": null,
+    "class": "container-input",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required > div.container-input"
+  },
+  "icon-circle-o-notch_icon-spin_ng-hide": {
+    "tag": "i",
+    "id": null,
+    "class": "icon-circle-o-notch icon-spin ng-hide",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]/button[1]/i[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required > button.btn.btn-primary.btn-large.bottom-15px > i.icon-circle-o-notch.icon-spin.ng-hide"
+  },
+  "forgot-password-email": {
+    "tag": "input",
+    "id": null,
+    "class": "first form-control ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required",
+    "name": null,
+    "data-qa": "forgot-password-email",
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/input[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required > div.container-input > input.first.form-control.ng-pristine.ng-untouched.ng-empty.ng-valid-email.ng-invalid.ng-invalid-required"
+  },
+  "forgot-password-submit": {
+    "tag": "button",
+    "id": null,
+    "class": "btn btn-primary btn-large bottom-15px",
+    "name": null,
+    "data-qa": "forgot-password-submit",
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]/button[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required > button.btn.btn-primary.btn-large.bottom-15px"
+  },
+  "spinner": {
+    "tag": "div",
+    "id": null,
+    "class": "alert alert-success ng-binding ng-hide",
+    "name": null,
+    "data-qa": "forgot-password-success",
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > form.ng-pristine.ng-valid-email.ng-invalid.ng-invalid-required > div.alert.alert-success.ng-binding.ng-hide"
+  },
+  "blockG_rotateG_01": {
+    "tag": "div",
+    "id": null,
+    "class": "text-center top-45px",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > div.text-center.top-45px"
+  },
+  "forgot": {
+    "tag": "a",
+    "id": null,
+    "class": "forgot",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[1]/div[1]/div[1]/div[2]/div[2]/a[1]",
+    "cssSelector": "html > body > div.container.ng-scope > div.container-signin.ng-scope > div.flipper > div.backside > div.text-center.top-45px > a.forgot"
+  },
+  "blockG_rotateG_02": {
+    "tag": "div",
+    "id": null,
+    "class": "spinner-wrapper ng-hide",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[2]",
+    "cssSelector": "html > body > div.spinner-wrapper.ng-hide"
+  },
+  "blockG_rotateG_03": {
+    "tag": "div",
+    "id": null,
+    "class": "spinner",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[2]/div[1]",
+    "cssSelector": "html > body > div.spinner-wrapper.ng-hide > div.spinner"
+  },
+  "blockG_rotateG_04": {
+    "tag": "div",
+    "id": null,
+    "class": "blockG rotateG_01",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[2]/div[1]/div[1]",
+    "cssSelector": "html > body > div.spinner-wrapper.ng-hide > div.spinner > div.blockG.rotateG_01"
+  },
+  "blockG_rotateG_05": {
+    "tag": "div",
+    "id": null,
+    "class": "blockG rotateG_02",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[2]/div[1]/div[2]",
+    "cssSelector": "html > body > div.spinner-wrapper.ng-hide > div.spinner > div.blockG.rotateG_02"
+  },
+  "blockG_rotateG_06": {
+    "tag": "div",
+    "id": null,
+    "class": "blockG rotateG_06",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[2]/div[1]/div[6]",
+    "cssSelector": "html > body > div.spinner-wrapper.ng-hide > div.spinner > div.blockG.rotateG_06"
+  },
+  "blockG_rotateG_07": {
+    "tag": "div",
+    "id": null,
+    "class": "blockG rotateG_07",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[2]/div[1]/div[7]",
+    "cssSelector": "html > body > div.spinner-wrapper.ng-hide > div.spinner > div.blockG.rotateG_07"
+  },
+  "blockG_rotateG_08": {
+    "tag": "div",
+    "id": null,
+    "class": "blockG rotateG_08",
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/div[2]/div[1]/div[8]",
+    "cssSelector": "html > body > div.spinner-wrapper.ng-hide > div.spinner > div.blockG.rotateG_08"
+  },
+  "script_3": {
+    "tag": "script",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/script[1]",
+    "cssSelector": "html > body > script"
+  },
+  "script_4": {
+    "tag": "script",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/script[2]",
+    "cssSelector": "html > body > script"
+  },
+  "script_5": {
+    "tag": "script",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/script[3]",
+    "cssSelector": "html > body > script"
+  },
+  "script_6": {
+    "tag": "script",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/script[4]",
+    "cssSelector": "html > body > script"
+  },
+  "script_7": {
+    "tag": "script",
+    "id": null,
+    "class": null,
+    "name": null,
+    "data-qa": null,
+    "xpath": "/html/body/script[5]",
+    "cssSelector": "html > body > script"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "dom-locator-extractor",
+    "version": "1.0.0",
+    "description": "A project to extract, sync, and manage locators using a saved DOM structure.",
+    "main": "index.js",
+    "scripts": {
+      "extract-dom": "node scripts/extract_dom.js",
+      "extract-body-dom": "node scripts/extract_body_dom.js",
+      "sync-locators_DOM": "npx cypress run --spec cypress/e2e/sync_locators_DOM.cy.js",
+      "cypress:open": "npx cypress open"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "cypress": "^13.15.2",
+      "puppeteer": "^22.8.2"
+    }
+  }
+  
